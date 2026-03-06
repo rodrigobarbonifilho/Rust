@@ -1,0 +1,1 @@
+C:\Users\Barboni\Documents\Estudos\Rust\Chapter\ 1\ -\ Primitive\ data\ Types\primitivedatatypeslesson1\target\debug\primitivedatatypeslesson1.exe: C:\Users\Barboni\Documents\Estudos\Rust\Chapter\ 1\ -\ Primitive\ data\ Types\primitivedatatypeslesson1\src\main.rs
