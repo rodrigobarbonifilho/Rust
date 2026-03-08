@@ -1,0 +1,1 @@
+C:\Users\Barboni\Documents\Estudos\Rust\Chapter\ 1\ -\ Primitive\ data\ Types\hello_test\target\debug\hello_test.exe: C:\Users\Barboni\Documents\Estudos\Rust\Chapter\ 1\ -\ Primitive\ data\ Types\hello_test\src\main.rs
