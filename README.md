@@ -26,3 +26,7 @@ Sumário
 
 - [Capítulo 1 - Getting Started](./chapter1)
 
+Referências
+---
+The Rust Programming Language - https://doc.rust-lang.org/book/
+
