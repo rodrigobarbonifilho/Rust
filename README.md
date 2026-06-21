@@ -24,5 +24,5 @@ Rust
 Sumário
 ---
 
-- [Capítulo 1 - Getting Started](https://www.google.com)
+- [Capítulo 1 - Getting Started](./chapter1)
 
