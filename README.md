@@ -8,17 +8,19 @@ Estrutura do Projeto
 ---
 ```
 Rust
-├── ch0
-│   ├── project1
-│   │   ├── ...
-│   │   └── README.md   # Contém informações específicas do projeto
-│   └── project2
-│       ├── ...
-│       └── README.md   # Contém informações específicas do projeto
-├── ch1
-├── ch2
+├── chapter1
+│   ├── chapter1.1
+│   │   ├── project1
+│   │   │   └── ...
+│   │   └── README.md  # Contém informações específicas do subcapítulo
+│   ├── chapter1.2
+│   ├── ... 
+│   ├── chapter1.{i} 
+│   └── README.md  # Contém informações específicas do capítulo 
+├── chapter2
+├── chapter3
 ├── ...
-└── ch{n}
+└── chapter{j}
 ```
 
 Sumário
