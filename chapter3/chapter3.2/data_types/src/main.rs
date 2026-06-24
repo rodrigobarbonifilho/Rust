@@ -87,7 +87,7 @@ fn main() {
     println!("Product: {product}");
 
     // division
-    let quotient = 56.7 / 32.2;
+    let quotient  = 56.7 / 32.2;
     let truncated = -5 / 3; // Resulta em -1
     println!("Quotient: {quotient}");
     println!("Truncated: {truncated}");
@@ -95,4 +95,65 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
     println!("Remainder: {remainder}");
+
+    // -- The Boolean Types
+    println!("-- The Boolean Types");
+
+    let t = true;
+
+    let f: bool = false; // with explicit type annotation
+    
+    println!("t: {t}");
+    println!("f: {f}");
+
+    // -- The Character Type
+    println!("-- The Character Type");
+
+    let c = 'z';
+    let z: char = 'Z';
+    let heart_eyed_cat = '😻'; // Caracteres em Rust possui 4 bytes de
+                               // tamanho
+
+    // -=- Compound Types -=-
+    println!("Compound Types");
+
+    // -- The Tuple Type
+    println!("-- The Tuple Type");
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+
+    let (x, y, z) = tup;
+
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+    
+    println!("The value of y is: {y}");
+
+    let five_hundred   = x.0;
+    let six_point_four = x.1;
+    let one            = x.2;
+
+    // -- The Array Type
+    // Arrays são preferiveis quando se quer que o dado fique alocado
+    // na stack ao invés da heap, será visto melhor no chapter4 ou
+    // quando se tem certeza do número de elementos.
+    //
+    // O array não é tão flexível quanto um vetor, um vetor é similar ao
+    // colletion type proveniente da lib padrão que permite expansão ou
+    // encolher em tamanho porque o conteúdo vive na heap.
+    //
+    // De acordo com a doc, se estamos na dúvida entre usar array ou vetor
+    // então provavelmente precisamos de um vetor. Vetores serão
+    // discutidos no capitulo 8.
+    let a = [1, 2, 3, 4, 5];
+
+    let months = ["January", "February", "March", "April", "May", "June",
+                  "July", "August", "September", "October", "November",
+                  "December"];
+
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let a = [3; 5]; // [3, 3, 3, 3, 3];
+
+    let a = [1, 2, 3, 4, 5];
+
+    let first = a[0];
+    let second = a[1];
 }
